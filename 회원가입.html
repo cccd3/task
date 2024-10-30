@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+    <div id="container">
+        <header id="header"><h1>회원가입</h1></header>
+        <main id="main">
+            <form action="./regist">
+                <p><input type="text" maxlength="20" placeholder="아이디" name="userid"></p>
+                <p><input type="password" maxlength="20" placeholder="비밀번호" name="userpw"></p>
+                <p><input type="text" placeholder="[선택] 이메일 주소" name="useremail"></p>
+
+                <hr>
+
+                <p><input type="text" placeholder="이름" name="username"></p>
+                <p><input type="text" placeholder="생년월일 8자리" name="userbirth"></p>
+                <p>여자<input type="radio" name="gender" value="여"> 남자<input type="radio" name="gender" value="남"></p>
+                <p><button type="submit">가입하기</button> <button type="menu">취소하기</button></p>
+            </form>
+        </main>
+    </div>
+</body>
+</html>

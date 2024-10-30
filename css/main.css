@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'ClimateCrisisKR-1979';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/ClimateCrisisKR-1979.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BobaesumJindoTTF';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2410-1@1.0/BobaesumJindoTTF.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arita-buri-SemiBold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-buri-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 1);
+    font-size: 130px;
+    font-family: 'ClimateCrisisKR-1979';
+ }
+
+.container {
+    width: 100%;
+    height: 350px;
+}
+
+.header {
+    width: 100%;
+    height: 10px;
+}
+
+.left {
+    width: 30%;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+.right {
+    width: 70%;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer {
+    width: 100%;
+    height: 10px;
+}
+
+.bg { width: 100%; height: 500px; }
+
+.menu { 
+    height: 150px;
+    font-size: 50px; 
+    font-family: 'BobaesumJindoTTF';
+    text-align: right;
+}
+.info { 
+    font-family: 'Arita-buri-SemiBold';
+    text-align: right;
+}            
+a { color: black; text-decoration: none; }
+a:hover { text-decoration: underline; }
