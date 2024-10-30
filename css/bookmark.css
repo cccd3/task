@@ -20,7 +20,7 @@ body {
 }
 .photo {
     flex: 1;
-    background-image: url(/images/photo.jpg);
+    background-image: url(../images/photo.jpg);
     background-size: cover;
     background-position: center; 
 }
